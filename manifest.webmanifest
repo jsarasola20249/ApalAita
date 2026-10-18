@@ -1,10 +1,10 @@
 {
-  "id": "/appalpapa/",
+  "id": "/ApalAita/",
   "name": "Apal",
   "short_name": "Apal",
   "description": "Fichaje y agenda",
-  "start_url": "/appalpapa/",
-  "scope": "/appalpapa/",
+  "start_url": "/ApalAita/",
+  "scope": "/ApalAita/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#F7F8FA",

@@ -24,7 +24,7 @@ Ese ID sale en **Implementar → Administrar implementaciones**, en la URL de la
 
 1. Commit en este repo.
 2. Espera uno o dos minutos.
-3. En su móvil, Chrome: https://jsarasola20249.github.io/appalpapa/
+3. En su móvil, Chrome: https://jsarasola20249.github.io/ApalAita/
 4. Menú → **Instalar app**.
 
 El icono es «apal» y el nombre debajo es **Apal**.
