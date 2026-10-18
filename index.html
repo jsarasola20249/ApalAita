@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F7F8FA">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Apal">
+  <title>Apal</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png?v=claro">
+  <link rel="apple-touch-icon" href="icons/icon-192.png?v=claro">
+  <style>
+    html, body { margin: 0; height: 100%; background: #F7F8FA; }
+    iframe { border: 0; width: 100%; height: 100%; display: block; }
+  </style>
+</head>
+<body>
+  <!--
+    REUNION: sustituye PONER_AQUI_EL_ID_DEL_PROYECTO por el ID de la Web App.
+    Es el tramo de la URL que va entre /macros/s/ y /exec. Empieza por AKfycb.
+    No uses el ID del engranaje (el que empieza por 1).
+  -->
+  <iframe
+    src="https://script.google.com/macros/s/PONER_AQUI_EL_ID_DEL_PROYECTO/exec"
+    allow="geolocation *"
+    title="Fichaje">
+  </iframe>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
